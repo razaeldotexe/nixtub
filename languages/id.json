@@ -1,0 +1,23 @@
+{
+  "lang_name": "Indonesia",
+  "description": "CLI Modern untuk mengunduh video dan audio dari YouTube",
+  "welcome": "Selamat datang di Nixtub.",
+  "prompt_url": "Tempel URL video di sini",
+  "prompt_format": "Pilih format",
+  "manual_format": "Masukkan string format manual",
+  "analyzing": "Menganalisis tautan...",
+  "table_title": "JUDUL",
+  "table_uploader": "PENGUNGGAH",
+  "table_duration": "DURASI",
+  "table_views": "TAYANGAN",
+  "confirm_download": "Mulai mengunduh?",
+  "processing": "Memproses unduhan...",
+  "status_downloading": "Mengunduh",
+  "status_finishing": "Menyelesaikan",
+  "status_done": "Selesai",
+  "success": "UNDUHAN SELESAI",
+  "error_no_url": "✘ URL tidak diberikan.",
+  "error_fail_info": "✘ Gagal mengambil informasi video.",
+  "exit_msg": "Keluar dari Nixtub. Sampai jumpa!",
+  "python_check": "Apakah Python sudah di install dengan benar?"
+}

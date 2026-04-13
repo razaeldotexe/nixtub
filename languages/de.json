@@ -1,0 +1,23 @@
+{
+  "lang_name": "German",
+  "description": "Modernes CLI zum Herunterladen von Videos und Audio von YouTube",
+  "welcome": "Willkommen bei Nixtub.",
+  "prompt_url": "Video-URL hier einfügen",
+  "prompt_format": "Format auswählen",
+  "manual_format": "Manuellen Format-String eingeben",
+  "analyzing": "Link wird analysiert...",
+  "table_title": "TITEL",
+  "table_uploader": "UPLOADER",
+  "table_duration": "DAUER",
+  "table_views": "AUFRUFE",
+  "confirm_download": "Download starten?",
+  "processing": "Download wird verarbeitet...",
+  "status_downloading": "Downloading",
+  "status_finishing": "Fertigstellung",
+  "status_done": "Fertig",
+  "success": "DOWNLOAD ABGESCHLOSSEN",
+  "error_no_url": "✘ Keine URL angegeben.",
+  "error_fail_info": "✘ Videoinformationen konnten nicht abgerufen werden.",
+  "exit_msg": "Beenden von Nixtub. Auf Wiedersehen!",
+  "python_check": "Ist Python korrekt installiert?"
+}

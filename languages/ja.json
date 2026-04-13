@@ -1,0 +1,23 @@
+{
+  "lang_name": "Japan",
+  "description": "YouTubeからビデオとオーディオをダウンロードするための最新のCLI",
+  "welcome": "Nixtubへようこそ。",
+  "prompt_url": "ここにビデオのURLを貼り付けてください",
+  "prompt_format": "フォーマットを選択",
+  "manual_format": "手動フォーマット文字列を入力",
+  "analyzing": "リンクを分析中...",
+  "table_title": "タイトル",
+  "table_uploader": "アップローダー",
+  "table_duration": "再生時間",
+  "table_views": "視聴回数",
+  "confirm_download": "ダウンロードを開始しますか？",
+  "processing": "ダウンロードを処理中...",
+  "status_downloading": "ダウンロード中",
+  "status_finishing": "完了処理中",
+  "status_done": "完了",
+  "success": "ダウンロードが完了しました",
+  "error_no_url": "✘ URLが指定されていません。",
+  "error_fail_info": "✘ ビデオ情報の取得に失敗しました。",
+  "exit_msg": "Nixtubを終了します。さようなら！",
+  "python_check": "Pythonは正しくインストールされていますか？"
+}

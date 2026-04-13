@@ -1,0 +1,23 @@
+{
+  "lang_name": "Chinese",
+  "description": "用于从 YouTube 下载视频和音频的现代命令行工具",
+  "welcome": "欢迎使用 Nixtub。",
+  "prompt_url": "在此粘贴视频链接",
+  "prompt_format": "选择格式",
+  "manual_format": "输入手动格式字符串",
+  "analyzing": "正在分析链接...",
+  "table_title": "标题",
+  "table_uploader": "上传者",
+  "table_duration": "时长",
+  "table_views": "播放次数",
+  "confirm_download": "开始下载？",
+  "processing": "正在处理下载...",
+  "status_downloading": "下载中",
+  "status_finishing": "正在完成",
+  "status_done": "完成",
+  "success": "下载完成",
+  "error_no_url": "✘ 未提供链接。",
+  "error_fail_info": "✘ 无法获取视频信息。",
+  "exit_msg": "退出 Nixtub。再见！",
+  "python_check": "Python 是否已正确安装？"
+}

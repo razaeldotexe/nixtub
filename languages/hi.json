@@ -1,0 +1,23 @@
+{
+  "lang_name": "India",
+  "description": "YouTube से वीडियो और ऑडियो डाउनलोड करने के लिए आधुनिक CLI",
+  "welcome": "Nixtub में आपका स्वागत है।",
+  "prompt_url": "यहां वीडियो यूआरएल पेस्ट करें",
+  "prompt_format": "प्रारूप चुनें",
+  "manual_format": "मैनुअल प्रारूप स्ट्रिंग दर्ज करें",
+  "analyzing": "लिंक का विश्लेषण किया जा रहा है...",
+  "table_title": "शीर्षक",
+  "table_uploader": "अपलोडर",
+  "table_duration": "अवधि",
+  "table_views": "दृश्य",
+  "confirm_download": "डाउनलोड शुरू करें?",
+  "processing": "डाउनलोड संसाधित किया जा रहा है...",
+  "status_downloading": "डाउनलोड हो रहा है",
+  "status_finishing": "समाप्त हो रहा है",
+  "status_done": "हो गया",
+  "success": "डाउनलोड पूरा हुआ",
+  "error_no_url": "✘ कोई यूआरएल नहीं दिया गया।",
+  "error_fail_info": "✘ वीडियो जानकारी प्राप्त करने में विफल।",
+  "exit_msg": "Nixtub से बाहर निकल रहे हैं। अलविदा!",
+  "python_check": "क्या Python सही ढंग से इंस्टॉल किया गया है?"
+}

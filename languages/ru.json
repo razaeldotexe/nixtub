@@ -1,0 +1,23 @@
+{
+  "lang_name": "Russia",
+  "description": "Современный CLI для скачивания видео и аудио с YouTube",
+  "welcome": "Добро пожаловать в Nixtub.",
+  "prompt_url": "Вставьте ссылку на видео здесь",
+  "prompt_format": "Выберите формат",
+  "manual_format": "Введите строку формата вручную",
+  "analyzing": "Анализ ссылки...",
+  "table_title": "ЗАГОЛОВОК",
+  "table_uploader": "АВТОР",
+  "table_duration": "ДЛИТЕЛЬНОСТЬ",
+  "table_views": "ПРОСМОТРЫ",
+  "confirm_download": "Начать загрузку?",
+  "processing": "Обработка загрузки...",
+  "status_downloading": "Загрузка",
+  "status_finishing": "Завершение",
+  "status_done": "Готово",
+  "success": "ЗАГРУЗКА ЗАВЕРШЕНА",
+  "error_no_url": "✘ Ссылка не предоставлена.",
+  "error_fail_info": "✘ Не удалось получить информацию о видео.",
+  "exit_msg": "Выход из Nixtub. До свидания!",
+  "python_check": "Правильно ли установлен Python?"
+}
