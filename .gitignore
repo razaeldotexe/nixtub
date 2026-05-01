@@ -1,13 +1,6 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-.env
-
-# Project specific
-.nix_init
-
-# OS
+node_modules/
+dist/
 .DS_Store
+*.log
+bun.lockb
+.env
