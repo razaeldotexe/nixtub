@@ -15,31 +15,49 @@ export const Banner: React.FC<BannerProps> = ({ translation, osType }) => {
         alignItems: "center",
         padding: 1,
         border: true,
-        borderStyle: "rounded",
+        borderStyle: "double",
         borderColor: "#D97757",
       }}
     >
-      <text style={{ fg: "#D97757", attributes: 1 }}>
-        {" Nixtub - Razael Labs "}
-      </text>
-      <text style={{ fg: "#AAAAAA", marginTop: 1 }}>
+      <box style={{ flexDirection: "row", gap: 1 }}>
+        <text style={{ fg: "#D97757", attributes: 1 }}>
+          {"◆"}
+        </text>
+        <text style={{ fg: "#D97757", attributes: 1 }}>
+          {" NIXTUB CLI "}
+        </text>
+        <text style={{ fg: "#D97757", attributes: 1 }}>
+          {"◆"}
+        </text>
+      </box>
+      
+      <text style={{ fg: "#AAAAAA", marginTop: 1, attributes: 2 }}>
         {translation.description}
       </text>
+
       <box
         style={{
           flexDirection: "row",
           marginTop: 1,
-          gap: 2,
+          gap: 3,
+          padding: { left: 2, right: 2 },
+          border: true,
+          borderStyle: "single",
+          borderColor: "#333333"
         }}
       >
-        <text style={{ fg: "#666666" }}>
-          <span>Language: </span>
-          <span style={{ fg: "#D97757" }}>{translation.lang_name}</span>
-        </text>
-        <text style={{ fg: "#666666" }}>
-          <span>System: </span>
-          <span style={{ fg: "#D97757" }}>{osType}</span>
-        </text>
+        <box style={{ flexDirection: "row", gap: 1 }}>
+          <text fg="#666666">LOCALE:</text>
+          <text fg="#D97757" style={{ attributes: 1 }}>{translation.lang_name.toUpperCase()}</text>
+        </box>
+        <box style={{ flexDirection: "row", gap: 1 }}>
+          <text fg="#666666">PLATFORM:</text>
+          <text fg="#D97757" style={{ attributes: 1 }}>{osType.toUpperCase()}</text>
+        </box>
+        <box style={{ flexDirection: "row", gap: 1 }}>
+          <text fg="#666666">ENGINE:</text>
+          <text fg="#D97757" style={{ attributes: 1 }}>YT-DLP</text>
+        </box>
       </box>
     </box>
   );
